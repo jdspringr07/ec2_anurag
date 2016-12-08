@@ -27,6 +27,6 @@ touch ~/.boto
 Add the following lines to the file
 ```
 [Credentials]
-aws_access_key_id = REDACTED
-aws_secret_access_key = REDACTED
+aws_access_key_id = [CHANGE_ME]
+aws_secret_access_key = [CHANGE_ME]
 ```
