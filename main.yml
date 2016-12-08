@@ -1,0 +1,8 @@
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  become: yes
+  pre_tasks:
+    - include_vars: ./vars.yml
+  tasks:
+    - include: ./ec2_launch.yml

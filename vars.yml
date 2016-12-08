@@ -1,0 +1,12 @@
+##
+ec2_keypair: "[changeme]"
+ec2_security_group: "[changeme]"
+
+ec2_instance_type: "m3.medium"
+ec2_image: "ami-9eaa1cf6"
+ec2_subnet_ids: ['subnet-[changeme]','subnet-[changme]','subnet-[changeme]']
+ec2_region: "us-east-1"
+ec2_tag_Name: ['master','node1','node2','infranode1']
+ec2_tag_Type: "openshift"
+ec2_tag_Environment: "development"
+ec2_volume_size: 16
